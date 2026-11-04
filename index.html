@@ -1,0 +1,430 @@
+<!doctype html>
+<html lang="es" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f3f6f3" />
+    <title>Resumen | Social Meter</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="group min-h-screen bg-[#f3f6f3] font-sans text-[#182522] antialiased selection:bg-lime-200">
+    <div class="min-h-screen lg:grid lg:grid-cols-[244px_minmax(0,1fr)]">
+      <aside class="sticky top-0 hidden h-screen self-start border-r border-white/10 bg-[#182522] text-white lg:flex lg:flex-col">
+        <div class="flex h-[76px] items-center gap-3 border-b border-white/10 px-6">
+          <span class="grid size-9 place-items-center rounded-xl bg-[#d9f36a] text-[#182522]">
+            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" class="size-5"><path d="M4 16.5 9 11l3.5 3.5L20 6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><path d="M15.5 6H20v4.5" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          <span class="text-[17px] font-bold tracking-tight">social meter</span>
+        </div>
+
+        <div class="px-4 pt-8">
+          <p class="px-3 text-[10px] font-bold uppercase tracking-[0.16em] text-white/40">Espacio de trabajo</p>
+          <nav aria-label="Navegación principal" class="mt-3 space-y-1">
+            <a href="#resumen" class="flex items-center gap-3 rounded-xl px-3 py-3 text-sm font-medium text-white/65 transition hover:bg-white/5 hover:text-white">
+              <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" class="size-[18px]"><rect x="3.5" y="3.5" width="7" height="7" rx="1.5" stroke="currentColor" stroke-width="1.8"/><rect x="13.5" y="3.5" width="7" height="7" rx="1.5" stroke="currentColor" stroke-width="1.8"/><rect x="3.5" y="13.5" width="7" height="7" rx="1.5" stroke="currentColor" stroke-width="1.8"/><rect x="13.5" y="13.5" width="7" height="7" rx="1.5" stroke="currentColor" stroke-width="1.8"/></svg>
+              Resumen
+            </a>
+            <a href="#plataformas" class="flex items-center gap-3 rounded-xl px-3 py-3 text-sm font-medium text-white/65 transition hover:bg-white/5 hover:text-white">
+              <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" class="size-[18px]"><path d="M4 19V5m0 14h16M8 15l3-4 3 2 5-7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Plataformas
+            </a>
+            <a href="#productos" class="flex items-center gap-3 rounded-xl px-3 py-3 text-sm font-medium text-white/65 transition hover:bg-white/5 hover:text-white">
+              <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" class="size-[18px]"><path d="m4 7 8-4 8 4-8 4-8-4Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="m4 12 8 4 8-4M4 17l8 4 8-4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Productos
+            </a>
+            <a href="#actividad" class="flex items-center gap-3 rounded-xl px-3 py-3 text-sm font-medium text-white/65 transition hover:bg-white/5 hover:text-white">
+              <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" class="size-[18px]"><path d="M5 4.5h14v15H5z" stroke="currentColor" stroke-width="1.8"/><path d="M8 9h8M8 12.5h8M8 16h5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+              Actividad
+            </a>
+          </nav>
+        </div>
+
+        <div class="mt-auto p-4">
+          <div class="rounded-2xl border border-white/10 bg-white/[0.04] p-4">
+            <div class="flex items-center gap-3">
+              <div class="grid size-9 place-items-center rounded-full bg-[#b8d7ce] text-xs font-bold text-[#183b32]">LM</div>
+              <div class="min-w-0">
+                <p class="truncate text-sm font-semibold">Lucía Martínez</p>
+                <p class="mt-0.5 truncate text-xs text-white/50">Creadora · Cuenta personal</p>
+              </div>
+              <button type="button" class="ml-auto rounded-lg p-1.5 text-white/50 hover:bg-white/10 hover:text-white" aria-label="Opciones de cuenta">
+                <svg aria-hidden="true" viewBox="0 0 24 24" fill="currentColor" class="size-4"><circle cx="5" cy="12" r="1.5"/><circle cx="12" cy="12" r="1.5"/><circle cx="19" cy="12" r="1.5"/></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </aside>
+
+      <div class="min-w-0">
+        <header class="sticky top-0 z-20 border-b border-[#e1e8e3] bg-[#f3f6f3]/95 backdrop-blur-md">
+          <div class="mx-auto flex h-[68px] max-w-[1440px] items-center justify-between gap-3 px-4 sm:px-7 lg:h-[76px] lg:px-10">
+            <div class="flex items-center gap-2.5 lg:hidden">
+              <span class="grid size-8 place-items-center rounded-[10px] bg-[#182522] text-[#d9f36a]">
+                <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" class="size-[18px]"><path d="M4 16.5 9 11l3.5 3.5L20 6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><path d="M15.5 6H20v4.5" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </span>
+              <span class="text-[15px] font-bold tracking-tight">social meter</span>
+            </div>
+            <div class="hidden items-center gap-2 text-sm text-[#687770] lg:flex">
+              <span>Workspace</span>
+              <svg aria-hidden="true" viewBox="0 0 16 16" fill="none" class="size-3.5"><path d="m6 3 5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              <span class="font-semibold text-[#182522]">Resumen</span>
+            </div>
+            <div class="flex items-center gap-2 sm:gap-3">
+              <span class="hidden rounded-xl border border-[#dfe6e1] bg-white px-3.5 py-2.5 text-sm font-semibold text-[#30413a] sm:inline-flex">Últimos 30 días</span>
+              <details class="relative">
+                <summary aria-label="Notificaciones, 3 nuevas" class="relative grid size-10 cursor-pointer list-none place-items-center rounded-xl border border-[#dfe6e1] bg-white text-[#52615a] transition hover:bg-[#f9fbf9] [&::-webkit-details-marker]:hidden">
+                  <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" class="size-[18px]"><path d="M18 9a6 6 0 0 0-12 0c0 7-3 7-3 9h18c0-2-3-2-3-9ZM10 21h4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                  <span class="absolute right-2 top-2 size-1.5 rounded-full bg-[#e7774d]"></span>
+                </summary>
+                <section aria-label="Notificaciones recientes" class="absolute right-0 top-[calc(100%+10px)] z-50 w-[min(88vw,360px)] overflow-hidden rounded-2xl border border-[#e1e8e3] bg-white text-[#182522] shadow-[0_16px_48px_rgba(24,37,34,0.16)]">
+                  <div class="flex items-center justify-between border-b border-[#edf1ed] px-4 py-3.5">
+                    <div><h2 class="text-sm font-bold">Notificaciones</h2><p class="mt-0.5 text-[11px] text-[#829089]">Actualizadas con tus resultados</p></div>
+                    <span class="rounded-full bg-[#fceaf0] px-2 py-1 text-[10px] font-bold text-[#a74b68]">3 nuevas</span>
+                  </div>
+                  <ul class="divide-y divide-[#edf1ed]">
+                    <li><a href="#plataformas" class="block px-4 py-3.5 transition hover:bg-[#f8faf8]"><span class="flex items-center gap-2 text-xs font-bold"><span class="size-1.5 rounded-full bg-[#e7774d]"></span>Instagram lidera tus comisiones</span><span class="mt-1.5 block pl-3.5 text-xs leading-relaxed text-[#718078]">Generó el 53% del total este periodo (€1.095). Ver plataformas <span aria-hidden="true">→</span></span></a></li>
+                    <li><a href="#productos" class="block px-4 py-3.5 transition hover:bg-[#f8faf8]"><span class="flex items-center gap-2 text-xs font-bold"><span class="size-1.5 rounded-full bg-[#28785f]"></span>Producto A convierte mejor</span><span class="mt-1.5 block pl-3.5 text-xs leading-relaxed text-[#718078]">Su tasa de conversión es del 5,2%, la más alta de tus productos. Ver productos <span aria-hidden="true">→</span></span></a></li>
+                    <li><a href="#alertas" class="block px-4 py-3.5 transition hover:bg-[#f8faf8]"><span class="flex items-center gap-2 text-xs font-bold"><span class="size-1.5 rounded-full bg-[#e7774d]"></span>Bajó el engagement en YouTube</span><span class="mt-1.5 block pl-3.5 text-xs leading-relaxed text-[#718078]">Descendió 0,8 pp. Revisa la señal <span aria-hidden="true">→</span></span></a></li>
+                  </ul>
+                </section>
+              </details>
+              <div class="hidden size-9 place-items-center rounded-full bg-[#b8d7ce] text-xs font-bold text-[#183b32] sm:grid lg:hidden">LM</div>
+            </div>
+          </div>
+        </header>
+
+        <main class="mx-auto max-w-[1440px] px-4 pb-28 pt-7 sm:px-7 sm:pt-9 lg:px-10 lg:pb-12 lg:pt-10">
+          <section id="resumen" aria-labelledby="welcome-title" class="scroll-mt-[68px] pb-6 lg:scroll-mt-[76px] lg:flex lg:min-h-[calc(100svh-76px)] lg:flex-col lg:justify-center lg:pb-0">
+          <div class="mb-7 flex flex-col gap-4 sm:mb-8 sm:flex-row sm:items-end sm:justify-between">
+            <div>
+              <p class="mb-2 text-xs font-bold uppercase tracking-[0.13em] text-[#648078]">Martes, 4 de noviembre de 2026</p>
+              <h1 id="welcome-title" class="text-[30px] font-bold leading-tight tracking-tight sm:text-[36px]">Buenos días, Lucía <span aria-hidden="true">✳</span></h1>
+              <p class="mt-1.5 text-sm text-[#718078]">Así va tu negocio en redes durante este periodo.</p>
+            </div>
+            <label class="relative w-full sm:w-[184px]">
+              <span class="sr-only">Filtrar por plataforma</span>
+              <select id="platform-filter" class="h-11 w-full appearance-none rounded-xl border border-[#dfe6e1] bg-white py-2 pl-3.5 pr-9 text-sm font-medium text-[#30413a] outline-none focus:border-[#29836e] focus:ring-2 focus:ring-[#29836e]/15">
+                <option id="platform-all" value="all" selected>Todas las plataformas</option>
+                <option id="platform-instagram" value="instagram">Instagram</option>
+                <option id="platform-tiktok" value="tiktok">TikTok</option>
+                <option id="platform-youtube" value="youtube">YouTube</option>
+              </select>
+              <svg aria-hidden="true" viewBox="0 0 16 16" fill="none" class="pointer-events-none absolute right-3 top-1/2 size-3.5 -translate-y-1/2 text-[#718078]"><path d="m4 6 4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </label>
+          </div>
+
+          <section aria-labelledby="kpi-title">
+            <div class="mb-3 flex items-center justify-between">
+              <h2 id="kpi-title" class="text-base font-bold text-[#34463e]">Tus resultados</h2>
+              <span class="text-xs text-[#829089]">vs. periodo anterior</span>
+            </div>
+            <div class="grid grid-cols-2 gap-3 sm:gap-4 xl:grid-cols-4">
+              <article class="rounded-2xl border border-[#e3e9e4] bg-white p-5 shadow-[0_2px_8px_rgba(27,48,38,0.025)] sm:p-6">
+                <div class="flex items-start justify-between gap-2">
+                  <p class="text-xs font-semibold text-[#718078] sm:text-sm">Comisiones</p>
+                  <span class="grid size-8 shrink-0 place-items-center rounded-lg bg-[#edf6d9] text-[#65820e]">
+                    <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" class="size-[17px]"><path d="M12 3v18m5-13.5C17 5.6 14.8 4 12 4S7 5.4 7 7.5 9 11 12 12s5 2.4 5 4.5S14.8 20 12 20s-5-1.6-5-3.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+                  </span>
+                </div>
+                <p aria-live="polite" class="mt-4 text-[28px] font-bold leading-none tracking-tight sm:text-[34px]"><span class="group-has-[select#platform-filter_option#platform-instagram:checked]:hidden group-has-[select#platform-filter_option#platform-tiktok:checked]:hidden group-has-[select#platform-filter_option#platform-youtube:checked]:hidden">€2.055</span><span class="hidden group-has-[select#platform-filter_option#platform-instagram:checked]:inline">€1.095</span><span class="hidden group-has-[select#platform-filter_option#platform-tiktok:checked]:inline">€642</span><span class="hidden group-has-[select#platform-filter_option#platform-youtube:checked]:inline">€318</span></p>
+                <p class="mt-3 flex items-center gap-1 text-[11px] font-semibold text-[#28785f] sm:text-xs"><span aria-hidden="true">↗</span><span class="group-has-[select#platform-filter_option#platform-instagram:checked]:hidden group-has-[select#platform-filter_option#platform-tiktok:checked]:hidden group-has-[select#platform-filter_option#platform-youtube:checked]:hidden">18,4%</span><span class="hidden group-has-[select#platform-filter_option#platform-instagram:checked]:inline">22,1%</span><span class="hidden group-has-[select#platform-filter_option#platform-tiktok:checked]:inline">14,3%</span><span class="hidden group-has-[select#platform-filter_option#platform-youtube:checked]:inline">8,2%</span><span class="font-normal text-[#829089]">vs. anterior</span></p>
+              </article>
+              <article class="rounded-2xl border border-[#e3e9e4] bg-white p-5 shadow-[0_2px_8px_rgba(27,48,38,0.025)] sm:p-6">
+                <div class="flex items-start justify-between gap-2">
+                  <p class="text-xs font-semibold text-[#718078] sm:text-sm">Ventas generadas</p>
+                  <span class="grid size-8 shrink-0 place-items-center rounded-lg bg-[#e8f3fa] text-[#377b9f]">
+                    <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" class="size-[17px]"><path d="M4 7h16l-1.5 13h-13L4 7ZM9 9V6a3 3 0 0 1 6 0v3" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                  </span>
+                </div>
+                <p aria-live="polite" class="mt-4 text-[28px] font-bold leading-none tracking-tight sm:text-[34px]"><span class="group-has-[select#platform-filter_option#platform-instagram:checked]:hidden group-has-[select#platform-filter_option#platform-tiktok:checked]:hidden group-has-[select#platform-filter_option#platform-youtube:checked]:hidden">175</span><span class="hidden group-has-[select#platform-filter_option#platform-instagram:checked]:inline">91</span><span class="hidden group-has-[select#platform-filter_option#platform-tiktok:checked]:inline">54</span><span class="hidden group-has-[select#platform-filter_option#platform-youtube:checked]:inline">30</span></p>
+                <p class="mt-3 flex items-center gap-1 text-[11px] font-semibold text-[#28785f] sm:text-xs"><span aria-hidden="true">↗</span><span class="group-has-[select#platform-filter_option#platform-instagram:checked]:hidden group-has-[select#platform-filter_option#platform-tiktok:checked]:hidden group-has-[select#platform-filter_option#platform-youtube:checked]:hidden">12,2%</span><span class="hidden group-has-[select#platform-filter_option#platform-instagram:checked]:inline">17,9%</span><span class="hidden group-has-[select#platform-filter_option#platform-tiktok:checked]:inline">12,5%</span><span class="hidden group-has-[select#platform-filter_option#platform-youtube:checked]:inline">7,1%</span><span class="font-normal text-[#829089]">vs. anterior</span></p>
+              </article>
+              <article class="rounded-2xl border border-[#e3e9e4] bg-white p-5 shadow-[0_2px_8px_rgba(27,48,38,0.025)] sm:p-6">
+                <div class="flex items-start justify-between gap-2">
+                  <p class="text-xs font-semibold text-[#718078] sm:text-sm">Tasa de conversión</p>
+                  <span class="grid size-8 shrink-0 place-items-center rounded-lg bg-[#fff0e8] text-[#c36b3f]">
+                    <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" class="size-[17px]"><path d="m4 16 5-5 3.5 3.5L20 7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M15 7h5v5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                  </span>
+                </div>
+                <p aria-live="polite" class="mt-4 text-[28px] font-bold leading-none tracking-tight sm:text-[34px]"><span class="group-has-[select#platform-filter_option#platform-instagram:checked]:hidden group-has-[select#platform-filter_option#platform-tiktok:checked]:hidden group-has-[select#platform-filter_option#platform-youtube:checked]:hidden">4,8<span class="text-lg">%</span></span><span class="hidden group-has-[select#platform-filter_option#platform-instagram:checked]:inline">5,4<span class="text-lg">%</span></span><span class="hidden group-has-[select#platform-filter_option#platform-tiktok:checked]:inline">4,7<span class="text-lg">%</span></span><span class="hidden group-has-[select#platform-filter_option#platform-youtube:checked]:inline">3,7<span class="text-lg">%</span></span></p>
+                <p class="mt-3 flex items-center gap-1 text-[11px] font-semibold text-[#28785f] sm:text-xs"><span aria-hidden="true">↗</span><span class="group-has-[select#platform-filter_option#platform-instagram:checked]:hidden group-has-[select#platform-filter_option#platform-tiktok:checked]:hidden group-has-[select#platform-filter_option#platform-youtube:checked]:hidden">0,6 pp</span><span class="hidden group-has-[select#platform-filter_option#platform-instagram:checked]:inline">0,8 pp</span><span class="hidden group-has-[select#platform-filter_option#platform-tiktok:checked]:inline">0,4 pp</span><span class="hidden group-has-[select#platform-filter_option#platform-youtube:checked]:inline">0,2 pp</span><span class="font-normal text-[#829089]">vs. anterior</span></p>
+              </article>
+              <article class="rounded-2xl border border-[#e3e9e4] bg-white p-5 shadow-[0_2px_8px_rgba(27,48,38,0.025)] sm:p-6">
+                <div class="flex items-start justify-between gap-2">
+                  <p class="text-xs font-semibold text-[#718078] sm:text-sm">Engagement medio</p>
+                  <span class="grid size-8 shrink-0 place-items-center rounded-lg bg-[#fceaf0] text-[#b95072]">
+                    <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" class="size-[17px]"><path d="M20.8 8.6c0 5.1-8.8 11-8.8 11s-8.8-5.9-8.8-11A4.6 4.6 0 0 1 12 6.2a4.6 4.6 0 0 1 8.8 2.4Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+                  </span>
+                </div>
+                <p aria-live="polite" class="mt-4 text-[28px] font-bold leading-none tracking-tight sm:text-[34px]"><span class="group-has-[select#platform-filter_option#platform-instagram:checked]:hidden group-has-[select#platform-filter_option#platform-tiktok:checked]:hidden group-has-[select#platform-filter_option#platform-youtube:checked]:hidden">6,6<span class="text-lg">%</span></span><span class="hidden group-has-[select#platform-filter_option#platform-instagram:checked]:inline">6,8<span class="text-lg">%</span></span><span class="hidden group-has-[select#platform-filter_option#platform-tiktok:checked]:inline">7,1<span class="text-lg">%</span></span><span class="hidden group-has-[select#platform-filter_option#platform-youtube:checked]:inline">4,9<span class="text-lg">%</span></span></p>
+                <p class="mt-3 flex items-center gap-1 text-[11px] font-semibold text-[#a75e31] sm:text-xs"><span aria-hidden="true"><span class="group-has-[select#platform-filter_option#platform-instagram:checked]:hidden group-has-[select#platform-filter_option#platform-tiktok:checked]:hidden">↘</span><span class="hidden text-[#28785f] group-has-[select#platform-filter_option#platform-instagram:checked]:inline group-has-[select#platform-filter_option#platform-tiktok:checked]:inline">↗</span></span><span class="group-has-[select#platform-filter_option#platform-instagram:checked]:hidden group-has-[select#platform-filter_option#platform-tiktok:checked]:hidden group-has-[select#platform-filter_option#platform-youtube:checked]:hidden">0,3 pp</span><span class="hidden text-[#28785f] group-has-[select#platform-filter_option#platform-instagram:checked]:inline">0,4 pp</span><span class="hidden text-[#28785f] group-has-[select#platform-filter_option#platform-tiktok:checked]:inline">0,9 pp</span><span class="hidden group-has-[select#platform-filter_option#platform-youtube:checked]:inline">0,8 pp</span><span class="font-normal text-[#829089]">vs. anterior</span></p>
+              </article>
+            </div>
+          </section>
+
+          <section aria-label="Actividad general del periodo" class="mt-5 grid gap-5 md:grid-cols-2">
+            <article class="rounded-2xl border border-[#e3e9e4] bg-white p-5 shadow-[0_2px_8px_rgba(27,48,38,0.025)] sm:p-6">
+              <div class="flex items-start justify-between gap-3">
+                <div><h2 class="text-sm font-bold">Ventas atribuidas</h2><p class="mt-1 text-xs text-[#829089]">Progreso del objetivo mensual</p></div>
+                <span class="rounded-full bg-[#edf6d9] px-2.5 py-1 text-[10px] font-bold text-[#65820e]"><span class="group-has-[select#platform-filter_option#platform-instagram:checked]:hidden group-has-[select#platform-filter_option#platform-tiktok:checked]:hidden group-has-[select#platform-filter_option#platform-youtube:checked]:hidden">88%</span><span class="hidden group-has-[select#platform-filter_option#platform-instagram:checked]:inline">91%</span><span class="hidden group-has-[select#platform-filter_option#platform-tiktok:checked]:inline">86%</span><span class="hidden group-has-[select#platform-filter_option#platform-youtube:checked]:inline">85%</span> del objetivo</span>
+              </div>
+              <div class="mt-5 flex items-end justify-between gap-4">
+                <p class="text-[26px] font-bold leading-none tracking-tight"><span class="group-has-[select#platform-filter_option#platform-instagram:checked]:hidden group-has-[select#platform-filter_option#platform-tiktok:checked]:hidden group-has-[select#platform-filter_option#platform-youtube:checked]:hidden">€13.700 <span class="text-xs font-medium text-[#829089]">/ €15.500</span></span><span class="hidden group-has-[select#platform-filter_option#platform-instagram:checked]:inline">€7.300 <span class="text-xs font-medium text-[#829089]">/ €8.000</span></span><span class="hidden group-has-[select#platform-filter_option#platform-tiktok:checked]:inline">€4.280 <span class="text-xs font-medium text-[#829089]">/ €5.000</span></span><span class="hidden group-has-[select#platform-filter_option#platform-youtube:checked]:inline">€2.120 <span class="text-xs font-medium text-[#829089]">/ €2.500</span></span></p>
+                <p class="text-xs font-semibold text-[#28785f]"><span class="group-has-[select#platform-filter_option#platform-instagram:checked]:hidden group-has-[select#platform-filter_option#platform-tiktok:checked]:hidden group-has-[select#platform-filter_option#platform-youtube:checked]:hidden">+€2.055</span><span class="hidden group-has-[select#platform-filter_option#platform-instagram:checked]:inline">+€1.095</span><span class="hidden group-has-[select#platform-filter_option#platform-tiktok:checked]:inline">+€642</span><span class="hidden group-has-[select#platform-filter_option#platform-youtube:checked]:inline">+€318</span> en comisiones</p>
+              </div>
+              <div class="mt-3">
+                <div class="h-2 overflow-hidden rounded-full bg-[#edf1ed] group-has-[select#platform-filter_option#platform-instagram:checked]:hidden group-has-[select#platform-filter_option#platform-tiktok:checked]:hidden group-has-[select#platform-filter_option#platform-youtube:checked]:hidden" role="meter" aria-label="Progreso de ventas atribuidas total" aria-valuemin="0" aria-valuemax="100" aria-valuenow="88"><div class="h-full w-[88%] rounded-full bg-[#8da93c]"></div></div>
+                <div class="hidden h-2 overflow-hidden rounded-full bg-[#edf1ed] group-has-[select#platform-filter_option#platform-instagram:checked]:block" role="meter" aria-label="Progreso de ventas atribuidas en Instagram" aria-valuemin="0" aria-valuemax="100" aria-valuenow="91"><div class="h-full w-[91%] rounded-full bg-[#8da93c]"></div></div>
+                <div class="hidden h-2 overflow-hidden rounded-full bg-[#edf1ed] group-has-[select#platform-filter_option#platform-tiktok:checked]:block" role="meter" aria-label="Progreso de ventas atribuidas en TikTok" aria-valuemin="0" aria-valuemax="100" aria-valuenow="86"><div class="h-full w-[86%] rounded-full bg-[#8da93c]"></div></div>
+                <div class="hidden h-2 overflow-hidden rounded-full bg-[#edf1ed] group-has-[select#platform-filter_option#platform-youtube:checked]:block" role="meter" aria-label="Progreso de ventas atribuidas en YouTube" aria-valuemin="0" aria-valuemax="100" aria-valuenow="85"><div class="h-full w-[85%] rounded-full bg-[#8da93c]"></div></div>
+              </div>
+            </article>
+            <article class="rounded-2xl border border-[#e3e9e4] bg-white p-5 shadow-[0_2px_8px_rgba(27,48,38,0.025)] sm:p-6">
+              <div class="flex items-start justify-between gap-3"><div><h2 class="text-sm font-bold">Actividad del periodo</h2><p class="mt-1 text-xs text-[#829089]">Tráfico y publicaciones</p></div><span class="grid size-8 place-items-center rounded-lg bg-[#e8f3fa] text-[#377b9f]"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" class="size-[17px]"><path d="M4 19V5m0 14h16M8 15l3-4 3 2 5-7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div>
+              <dl class="mt-4 grid grid-cols-3 gap-2">
+                <div><dt class="text-[10px] leading-tight text-[#829089] sm:text-xs">Visitas a enlaces</dt><dd class="mt-1 text-lg font-bold"><span class="group-has-[select#platform-filter_option#platform-instagram:checked]:hidden group-has-[select#platform-filter_option#platform-tiktok:checked]:hidden group-has-[select#platform-filter_option#platform-youtube:checked]:hidden">3.646</span><span class="hidden group-has-[select#platform-filter_option#platform-instagram:checked]:inline">1.685</span><span class="hidden group-has-[select#platform-filter_option#platform-tiktok:checked]:inline">1.149</span><span class="hidden group-has-[select#platform-filter_option#platform-youtube:checked]:inline">812</span></dd></div>
+                <div><dt class="text-[10px] leading-tight text-[#829089] sm:text-xs">Impresiones</dt><dd class="mt-1 text-lg font-bold"><span class="group-has-[select#platform-filter_option#platform-instagram:checked]:hidden group-has-[select#platform-filter_option#platform-tiktok:checked]:hidden group-has-[select#platform-filter_option#platform-youtube:checked]:hidden">92,5k</span><span class="hidden group-has-[select#platform-filter_option#platform-instagram:checked]:inline">48,2k</span><span class="hidden group-has-[select#platform-filter_option#platform-tiktok:checked]:inline">31,7k</span><span class="hidden group-has-[select#platform-filter_option#platform-youtube:checked]:inline">12,6k</span></dd></div>
+                <div><dt class="text-[10px] leading-tight text-[#829089] sm:text-xs">Publicaciones</dt><dd class="mt-1 text-lg font-bold"><span class="group-has-[select#platform-filter_option#platform-instagram:checked]:hidden group-has-[select#platform-filter_option#platform-tiktok:checked]:hidden group-has-[select#platform-filter_option#platform-youtube:checked]:hidden">28</span><span class="hidden group-has-[select#platform-filter_option#platform-instagram:checked]:inline">14</span><span class="hidden group-has-[select#platform-filter_option#platform-tiktok:checked]:inline">8</span><span class="hidden group-has-[select#platform-filter_option#platform-youtube:checked]:inline">6</span></dd></div>
+              </dl>
+            </article>
+          </section>
+          <section aria-label="Comisiones por plataforma" class="mt-5 rounded-2xl border border-[#e3e9e4] bg-white p-5 shadow-[0_2px_8px_rgba(27,48,38,0.025)] sm:p-6">
+            <div class="flex flex-wrap items-end justify-between gap-2"><div><h2 class="text-base font-bold">Comisiones por plataforma</h2><p class="mt-1 text-xs text-[#829089]">Distribución de los €2.055 generados</p></div><a href="#plataformas" class="text-xs font-semibold text-[#28785f] hover:text-[#18533f]">Ver análisis <span aria-hidden="true">→</span></a></div>
+            <div class="mt-4 grid gap-3 sm:grid-cols-3">
+              <article class="rounded-xl border border-[#edf1ed] p-3.5 transition-colors group-has-[select#platform-filter_option#platform-instagram:checked]:border-[#dce8b8] group-has-[select#platform-filter_option#platform-instagram:checked]:bg-[#f7faef]"><div class="flex justify-between text-xs"><span class="font-semibold">Instagram</span><span class="font-bold">€1.095 <span class="font-normal text-[#829089]">· 53%</span></span></div><div class="mt-2 h-1.5 overflow-hidden rounded-full bg-[#edf1ed]" role="meter" aria-label="Instagram, 53 por ciento de comisiones" aria-valuemin="0" aria-valuemax="100" aria-valuenow="53"><div class="h-full w-[53%] rounded-full bg-[#bd6682]"></div></div></article>
+              <article class="rounded-xl border border-[#edf1ed] p-3.5 transition-colors group-has-[select#platform-filter_option#platform-tiktok:checked]:border-[#dce8b8] group-has-[select#platform-filter_option#platform-tiktok:checked]:bg-[#f7faef]"><div class="flex justify-between text-xs"><span class="font-semibold">TikTok</span><span class="font-bold">€642 <span class="font-normal text-[#829089]">· 31%</span></span></div><div class="mt-2 h-1.5 overflow-hidden rounded-full bg-[#edf1ed]" role="meter" aria-label="TikTok, 31 por ciento de comisiones" aria-valuemin="0" aria-valuemax="100" aria-valuenow="31"><div class="h-full w-[31%] rounded-full bg-[#7869b3]"></div></div></article>
+              <article class="rounded-xl border border-[#edf1ed] p-3.5 transition-colors group-has-[select#platform-filter_option#platform-youtube:checked]:border-[#dce8b8] group-has-[select#platform-filter_option#platform-youtube:checked]:bg-[#f7faef]"><div class="flex justify-between text-xs"><span class="font-semibold">YouTube</span><span class="font-bold">€318 <span class="font-normal text-[#829089]">· 15%</span></span></div><div class="mt-2 h-1.5 overflow-hidden rounded-full bg-[#edf1ed]" role="meter" aria-label="YouTube, 15 por ciento de comisiones" aria-valuemin="0" aria-valuemax="100" aria-valuenow="15"><div class="h-full w-[15%] rounded-full bg-[#df8b60]"></div></div></article>
+            </div>
+          </section>
+          </section>
+
+          <section id="plataformas" aria-labelledby="platforms-title" class="mt-8 scroll-mt-[68px] grid gap-5 border-t border-[#dfe6e1] pt-7 xl:grid-cols-[minmax(0,1.55fr)_minmax(310px,0.85fr)] lg:mt-10 lg:min-h-[calc(100svh-76px)] lg:scroll-mt-[76px] lg:content-center lg:pt-9">
+            <div class="flex items-center gap-3 border-b border-[#e8ede9] pb-3 xl:col-span-2">
+              <span class="size-2 shrink-0 rounded-full bg-[#28785f]"></span>
+              <div><p class="text-[10px] font-semibold uppercase tracking-[0.1em] text-[#829089]">Análisis de canales</p><h2 id="platforms-title" class="mt-0.5 text-lg font-bold">Plataformas y audiencia</h2></div>
+            </div>
+            <article class="rounded-2xl border border-[#e3e9e4] bg-white p-5 shadow-[0_2px_8px_rgba(27,48,38,0.025)] sm:p-6">
+              <div class="flex flex-wrap items-start justify-between gap-3">
+                <div>
+                  <h2 class="text-base font-bold">Comisiones en el tiempo</h2>
+                  <p class="mt-1 text-xs text-[#829089]">Ingresos por semana · últimos 30 días</p>
+                </div>
+                <span class="rounded-lg bg-[#f1f5f1] px-2.5 py-1.5 text-[11px] font-semibold text-[#58675f]">Semanal <span aria-hidden="true">⌄</span></span>
+              </div>
+              <div class="mt-7 flex h-[190px] items-end justify-between gap-3 border-b border-l border-[#e7ece8] px-3 sm:mt-9 sm:h-[230px] sm:px-5" role="img" aria-label="Gráfico de barras: comisiones semanales de 390, 465, 420, 780 y 910 euros">
+                <div class="flex h-full flex-1 flex-col justify-end"><div class="mx-auto h-[43%] w-full max-w-[38px] rounded-t-md bg-[#c4d5ce]"></div><span class="mt-2.5 text-center text-[10px] text-[#829089]">6 oct.</span></div>
+                <div class="flex h-full flex-1 flex-col justify-end"><div class="mx-auto h-[51%] w-full max-w-[38px] rounded-t-md bg-[#c4d5ce]"></div><span class="mt-2.5 text-center text-[10px] text-[#829089]">13 oct.</span></div>
+                <div class="flex h-full flex-1 flex-col justify-end"><div class="mx-auto h-[46%] w-full max-w-[38px] rounded-t-md bg-[#c4d5ce]"></div><span class="mt-2.5 text-center text-[10px] text-[#829089]">20 oct.</span></div>
+                <div class="flex h-full flex-1 flex-col justify-end"><div class="mx-auto h-[72%] w-full max-w-[38px] rounded-t-md bg-[#91b5a7]"></div><span class="mt-2.5 text-center text-[10px] text-[#829089]">27 oct.</span></div>
+                <div class="flex h-full flex-1 flex-col justify-end"><div class="mx-auto h-[88%] w-full max-w-[38px] rounded-t-md bg-[#28785f]"></div><span class="mt-2.5 text-center text-[10px] text-[#829089]">3 nov.</span></div>
+              </div>
+              <div class="mt-4 flex items-center gap-2 text-xs text-[#718078]"><span class="size-2 rounded-sm bg-[#28785f]"></span>Comisiones confirmadas <span class="ml-auto font-semibold text-[#34463e]">Total: €2.055</span></div>
+            </article>
+
+            <article class="rounded-2xl border border-[#e3e9e4] bg-white p-5 shadow-[0_2px_8px_rgba(27,48,38,0.025)] sm:p-6">
+              <div class="flex items-start justify-between gap-3">
+                <div>
+                  <h2 class="text-base font-bold">Por plataforma</h2>
+                  <p class="mt-1 text-xs text-[#829089]">Comisiones y conversión</p>
+                </div>
+                <a href="#actividad" class="text-xs font-semibold text-[#28785f] hover:text-[#18533f]">Ver detalle <span aria-hidden="true">→</span></a>
+              </div>
+              <ul class="mt-5 space-y-5">
+                <li>
+                  <div class="mb-2 flex items-center gap-2.5">
+                    <span class="grid size-8 place-items-center rounded-lg bg-[#fceaf0] text-[11px] font-bold text-[#b95072]">IG</span>
+                    <span class="text-sm font-semibold">Instagram</span>
+                    <span class="ml-auto text-sm font-bold">€1.095</span>
+                  </div>
+                  <div class="flex items-center gap-2 pl-10"><div class="h-1.5 flex-1 overflow-hidden rounded-full bg-[#edf1ed]"><div class="h-full w-[78%] rounded-full bg-[#bd6682]"></div></div><span class="w-9 text-right text-[11px] text-[#829089]">5,4%</span></div>
+                </li>
+                <li>
+                  <div class="mb-2 flex items-center gap-2.5">
+                    <span class="grid size-8 place-items-center rounded-lg bg-[#f0eefa] text-[11px] font-bold text-[#6555a3]">TK</span>
+                    <span class="text-sm font-semibold">TikTok</span>
+                    <span class="ml-auto text-sm font-bold">€642</span>
+                  </div>
+                  <div class="flex items-center gap-2 pl-10"><div class="h-1.5 flex-1 overflow-hidden rounded-full bg-[#edf1ed]"><div class="h-full w-[55%] rounded-full bg-[#7869b3]"></div></div><span class="w-9 text-right text-[11px] text-[#829089]">4,7%</span></div>
+                </li>
+                <li>
+                  <div class="mb-2 flex items-center gap-2.5">
+                    <span class="grid size-8 place-items-center rounded-lg bg-[#fff0e8] text-[11px] font-bold text-[#c36b3f]">YT</span>
+                    <span class="text-sm font-semibold">YouTube</span>
+                    <span class="ml-auto text-sm font-bold">€318</span>
+                  </div>
+                  <div class="flex items-center gap-2 pl-10"><div class="h-1.5 flex-1 overflow-hidden rounded-full bg-[#edf1ed]"><div class="h-full w-[32%] rounded-full bg-[#df8b60]"></div></div><span class="w-9 text-right text-[11px] text-[#829089]">3,7%</span></div>
+                </li>
+              </ul>
+              <div class="mt-5 rounded-xl bg-[#f3f6f3] px-3.5 py-3 text-xs leading-relaxed text-[#5f6e66]">
+                <span class="font-bold text-[#34463e]">Instagram lidera</span> con el 53% de tus comisiones este periodo.
+              </div>
+            </article>
+            <article class="rounded-2xl border border-[#e3e9e4] bg-white p-5 shadow-[0_2px_8px_rgba(27,48,38,0.025)] sm:p-6 xl:col-span-2">
+              <div class="flex flex-wrap items-end justify-between gap-2"><div><h2 class="text-base font-bold">Alcance e interacciones</h2><p class="mt-1 text-xs text-[#829089]">Actividad de audiencia por red</p></div><span class="text-[11px] text-[#829089]">Variación de seguidores frente al periodo anterior</span></div>
+              <div class="mt-4 grid gap-2.5 sm:grid-cols-3">
+                <div class="rounded-xl bg-[#faf7f8] p-3.5"><div class="flex items-center justify-between gap-2"><span class="text-xs font-bold">Instagram</span><span class="text-[10px] font-semibold text-[#28785f]">+8,4%</span></div><dl class="mt-3 grid grid-cols-2 gap-2"><div><dt class="text-[10px] text-[#829089]">Alcance</dt><dd class="mt-0.5 text-sm font-bold">48,2k</dd></div><div><dt class="text-[10px] text-[#829089]">Interacciones</dt><dd class="mt-0.5 text-sm font-bold">3.280</dd></div><div class="col-span-2 border-t border-[#eee8e9] pt-2"><dt class="text-[10px] text-[#829089]">Engagement</dt><dd class="mt-0.5 text-xs font-semibold">6,8%</dd></div></dl></div>
+                <div class="rounded-xl bg-[#f8f7fb] p-3.5"><div class="flex items-center justify-between gap-2"><span class="text-xs font-bold">TikTok</span><span class="text-[10px] font-semibold text-[#28785f]">+12,1%</span></div><dl class="mt-3 grid grid-cols-2 gap-2"><div><dt class="text-[10px] text-[#829089]">Alcance</dt><dd class="mt-0.5 text-sm font-bold">31,7k</dd></div><div><dt class="text-[10px] text-[#829089]">Interacciones</dt><dd class="mt-0.5 text-sm font-bold">2.250</dd></div><div class="col-span-2 border-t border-[#eae8f0] pt-2"><dt class="text-[10px] text-[#829089]">Engagement</dt><dd class="mt-0.5 text-xs font-semibold">7,1%</dd></div></dl></div>
+                <div class="rounded-xl bg-[#fbf8f5] p-3.5"><div class="flex items-center justify-between gap-2"><span class="text-xs font-bold">YouTube</span><span class="text-[10px] font-semibold text-[#28785f]">+3,2%</span></div><dl class="mt-3 grid grid-cols-2 gap-2"><div><dt class="text-[10px] text-[#829089]">Alcance</dt><dd class="mt-0.5 text-sm font-bold">12,6k</dd></div><div><dt class="text-[10px] text-[#829089]">Interacciones</dt><dd class="mt-0.5 text-sm font-bold">618</dd></div><div class="col-span-2 border-t border-[#f0e9e3] pt-2"><dt class="text-[10px] text-[#829089]">Engagement</dt><dd class="mt-0.5 text-xs font-semibold">4,9%</dd></div></dl></div>
+              </div>
+            </article>
+          </section>
+
+          <section id="productos" aria-labelledby="products-title" class="mt-8 scroll-mt-[68px] rounded-2xl border border-[#e3e9e4] bg-white shadow-[0_2px_8px_rgba(27,48,38,0.025)] lg:mt-10 lg:min-h-[calc(100svh-76px)] lg:scroll-mt-[76px] lg:flex lg:flex-col lg:justify-center">
+            <div class="flex flex-wrap items-end justify-between gap-3 px-4 pb-4 pt-5 sm:px-6 sm:pt-6">
+              <div>
+                <p class="mb-1 text-[10px] font-semibold uppercase tracking-[0.1em] text-[#829089]">Catálogo</p>
+                <h2 id="products-title" class="text-base font-bold">Rendimiento por producto</h2>
+                <p class="mt-1 text-xs text-[#829089]">Comisión calculada al 15% por venta</p>
+              </div>
+              <a href="#actividad" class="text-xs font-semibold text-[#28785f] hover:text-[#18533f]">Todos los productos <span aria-hidden="true">→</span></a>
+            </div>
+            <div class="space-y-2 px-4 pb-4 md:hidden">
+              <article class="rounded-xl border border-[#edf1ed] p-3.5">
+                <div class="flex items-center gap-2.5">
+                  <span class="grid size-8 shrink-0 place-items-center rounded-lg bg-[#edf6d9] text-xs font-bold text-[#65820e]">A</span>
+                  <div class="min-w-0 flex-1"><h3 class="text-sm font-semibold">Producto A</h3><p class="mt-0.5 text-xs text-[#829089]">€50 · 82 ventas</p></div>
+                  <div class="text-right"><p class="text-sm font-bold">€615</p><p class="text-[10px] text-[#829089]">comisión</p></div>
+                </div>
+                <dl class="mt-3 flex justify-between border-t border-[#edf1ed] pt-2.5 text-xs"><dt class="text-[#829089]">Conversión</dt><dd class="font-semibold text-[#28785f]">5,2%</dd></dl>
+              </article>
+              <article class="rounded-xl border border-[#edf1ed] p-3.5">
+                <div class="flex items-center gap-2.5">
+                  <span class="grid size-8 shrink-0 place-items-center rounded-lg bg-[#e8f3fa] text-xs font-bold text-[#377b9f]">B</span>
+                  <div class="min-w-0 flex-1"><h3 class="text-sm font-semibold">Producto B</h3><p class="mt-0.5 text-xs text-[#829089]">€120 · 54 ventas</p></div>
+                  <div class="text-right"><p class="text-sm font-bold">€972</p><p class="text-[10px] text-[#829089]">comisión</p></div>
+                </div>
+                <dl class="mt-3 flex justify-between border-t border-[#edf1ed] pt-2.5 text-xs"><dt class="text-[#829089]">Conversión</dt><dd class="font-semibold text-[#28785f]">4,6%</dd></dl>
+              </article>
+              <article class="rounded-xl border border-[#edf1ed] p-3.5">
+                <div class="flex items-center gap-2.5">
+                  <span class="grid size-8 shrink-0 place-items-center rounded-lg bg-[#fff0e8] text-xs font-bold text-[#c36b3f]">C</span>
+                  <div class="min-w-0 flex-1"><h3 class="text-sm font-semibold">Producto C</h3><p class="mt-0.5 text-xs text-[#829089]">€80 · 39 ventas</p></div>
+                  <div class="text-right"><p class="text-sm font-bold">€468</p><p class="text-[10px] text-[#829089]">comisión</p></div>
+                </div>
+                <dl class="mt-3 flex justify-between border-t border-[#edf1ed] pt-2.5 text-xs"><dt class="text-[#829089]">Conversión</dt><dd class="font-semibold text-[#829089]">4,1%</dd></dl>
+              </article>
+              <div class="flex justify-between px-1 pt-1 text-xs font-bold text-[#34463e]"><span>Total · 175 ventas</span><span>€2.055</span></div>
+            </div>
+            <div class="hidden md:block">
+              <table class="w-full border-collapse text-left">
+                <caption class="sr-only">Ventas, comisiones y conversión por producto</caption>
+                <thead>
+                  <tr class="border-y border-[#edf1ed] bg-[#f8faf8] text-[10px] font-bold uppercase tracking-[0.08em] text-[#829089] sm:text-[11px]">
+                    <th scope="col" class="px-4 py-3 font-semibold sm:px-6">Producto</th>
+                    <th scope="col" class="px-3 py-3 text-right font-semibold">Precio</th>
+                    <th scope="col" class="px-3 py-3 text-right font-semibold">Ventas</th>
+                    <th scope="col" class="px-3 py-3 text-right font-semibold">Comisiones</th>
+                    <th scope="col" class="px-4 py-3 text-right font-semibold sm:px-6">Conversión</th>
+                  </tr>
+                </thead>
+                <tbody class="divide-y divide-[#edf1ed] text-sm">
+                  <tr class="hover:bg-[#fbfcfb]">
+                    <th scope="row" class="px-4 py-3.5 font-semibold sm:px-6"><span class="flex items-center gap-2.5"><span class="grid size-8 place-items-center rounded-lg bg-[#edf6d9] text-xs font-bold text-[#65820e]">A</span> Producto A</span></th>
+                    <td class="px-3 py-3.5 text-right text-[#5f6e66]">€50</td>
+                    <td class="px-3 py-3.5 text-right font-medium">82</td>
+                    <td class="px-3 py-3.5 text-right font-semibold">€615</td>
+                    <td class="px-4 py-3.5 text-right text-[#28785f] sm:px-6">5,2%</td>
+                  </tr>
+                  <tr class="hover:bg-[#fbfcfb]">
+                    <th scope="row" class="px-4 py-3.5 font-semibold sm:px-6"><span class="flex items-center gap-2.5"><span class="grid size-8 place-items-center rounded-lg bg-[#e8f3fa] text-xs font-bold text-[#377b9f]">B</span> Producto B</span></th>
+                    <td class="px-3 py-3.5 text-right text-[#5f6e66]">€120</td>
+                    <td class="px-3 py-3.5 text-right font-medium">54</td>
+                    <td class="px-3 py-3.5 text-right font-semibold">€972</td>
+                    <td class="px-4 py-3.5 text-right text-[#28785f] sm:px-6">4,6%</td>
+                  </tr>
+                  <tr class="hover:bg-[#fbfcfb]">
+                    <th scope="row" class="px-4 py-3.5 font-semibold sm:px-6"><span class="flex items-center gap-2.5"><span class="grid size-8 place-items-center rounded-lg bg-[#fff0e8] text-xs font-bold text-[#c36b3f]">C</span> Producto C</span></th>
+                    <td class="px-3 py-3.5 text-right text-[#5f6e66]">€80</td>
+                    <td class="px-3 py-3.5 text-right font-medium">39</td>
+                    <td class="px-3 py-3.5 text-right font-semibold">€468</td>
+                    <td class="px-4 py-3.5 text-right text-[#829089] sm:px-6">4,1%</td>
+                  </tr>
+                </tbody>
+                <tfoot>
+                  <tr class="border-t border-[#edf1ed] text-xs font-bold text-[#34463e]"><th scope="row" class="px-4 py-3.5 sm:px-6">Total</th><td></td><td class="px-3 py-3.5 text-right">175</td><td class="px-3 py-3.5 text-right">€2.055</td><td class="px-4 py-3.5 text-right sm:px-6">4,8%</td></tr>
+                </tfoot>
+              </table>
+            </div>
+            <section aria-label="Composición de comisiones por producto" class="border-t border-[#edf1ed] px-4 py-4 sm:px-6 sm:py-5">
+              <div class="flex items-center justify-between gap-3"><h3 class="text-sm font-bold">Composición de comisiones</h3><span class="text-xs font-semibold text-[#5f6e66]">€2.055 en total</span></div>
+              <div class="mt-4 grid gap-4 sm:grid-cols-3">
+                <div><div class="mb-1.5 flex justify-between text-xs"><span class="font-semibold">Producto A</span><span class="text-[#718078]">30% · €615</span></div><div class="h-2 overflow-hidden rounded-full bg-[#edf1ed]" role="meter" aria-label="Producto A, 30 por ciento de comisiones" aria-valuemin="0" aria-valuemax="100" aria-valuenow="30"><div class="h-full w-[30%] rounded-full bg-[#8da93c]"></div></div></div>
+                <div><div class="mb-1.5 flex justify-between text-xs"><span class="font-semibold">Producto B</span><span class="text-[#718078]">47% · €972</span></div><div class="h-2 overflow-hidden rounded-full bg-[#edf1ed]" role="meter" aria-label="Producto B, 47 por ciento de comisiones" aria-valuemin="0" aria-valuemax="100" aria-valuenow="47"><div class="h-full w-[47%] rounded-full bg-[#377b9f]"></div></div></div>
+                <div><div class="mb-1.5 flex justify-between text-xs"><span class="font-semibold">Producto C</span><span class="text-[#718078]">23% · €468</span></div><div class="h-2 overflow-hidden rounded-full bg-[#edf1ed]" role="meter" aria-label="Producto C, 23 por ciento de comisiones" aria-valuemin="0" aria-valuemax="100" aria-valuenow="23"><div class="h-full w-[23%] rounded-full bg-[#df8b60]"></div></div></div>
+              </div>
+              <p class="mt-4 text-xs leading-relaxed text-[#718078]">El producto B aporta la mayor comisión total; el producto A genera más ventas y mantiene la mejor conversión.</p>
+            </section>
+          </section>
+
+          <section id="actividad" aria-labelledby="activity-title" class="mt-8 scroll-mt-[68px] grid gap-5 border-t border-[#dfe6e1] pt-7 lg:mt-10 lg:min-h-[calc(100svh-76px)] lg:scroll-mt-[76px] lg:content-center lg:grid-cols-[minmax(0,1.25fr)_minmax(280px,0.75fr)] lg:pt-9">
+            <div class="flex items-center gap-3 border-b border-[#e8ede9] pb-3 lg:col-span-2">
+              <span class="size-2 shrink-0 rounded-full bg-[#28785f]"></span>
+              <div><p class="text-[10px] font-semibold uppercase tracking-[0.1em] text-[#829089]">Operación diaria</p><h2 id="activity-title" class="mt-0.5 text-lg font-bold">Campañas y alertas</h2></div>
+            </div>
+            <article class="rounded-2xl border border-[#e3e9e4] bg-white p-5 shadow-[0_2px_8px_rgba(27,48,38,0.025)] sm:p-6">
+              <div class="flex items-start justify-between gap-3">
+                <div><h3 class="text-base font-bold">Campañas recientes</h3><p class="mt-1 text-xs text-[#829089]">Actividad de tus promociones</p></div>
+                <a href="#actividad" class="text-xs font-semibold text-[#28785f] hover:text-[#18533f]">Ver todas <span aria-hidden="true">→</span></a>
+              </div>
+              <ul class="mt-4 divide-y divide-[#edf1ed]">
+                <li class="flex items-center gap-3 py-3">
+                  <span class="grid size-9 shrink-0 place-items-center rounded-xl bg-[#fceaf0] text-[10px] font-bold text-[#b95072]">IG</span>
+                  <div class="min-w-0 flex-1"><p class="truncate text-sm font-semibold">Rutina de otoño</p><p class="mt-0.5 text-xs text-[#829089]">Instagram · 28 oct.</p></div>
+                  <div class="text-right"><p class="text-sm font-bold">€420</p><p class="mt-0.5 text-[10px] font-semibold text-[#28785f]">56 ventas</p></div>
+                </li>
+                <li class="flex items-center gap-3 py-3">
+                  <span class="grid size-9 shrink-0 place-items-center rounded-xl bg-[#f0eefa] text-[10px] font-bold text-[#6555a3]">TK</span>
+                  <div class="min-w-0 flex-1"><p class="truncate text-sm font-semibold">Un día conmigo</p><p class="mt-0.5 text-xs text-[#829089]">TikTok · 24 oct.</p></div>
+                  <div class="text-right"><p class="text-sm font-bold">€286</p><p class="mt-0.5 text-[10px] font-semibold text-[#28785f]">38 ventas</p></div>
+                </li>
+                <li class="flex items-center gap-3 py-3">
+                  <span class="grid size-9 shrink-0 place-items-center rounded-xl bg-[#fff0e8] text-[10px] font-bold text-[#c36b3f]">YT</span>
+                  <div class="min-w-0 flex-1"><p class="truncate text-sm font-semibold">Favoritos del mes</p><p class="mt-0.5 text-xs text-[#829089]">YouTube · 19 oct.</p></div>
+                  <div class="text-right"><p class="text-sm font-bold">€198</p><p class="mt-0.5 text-[10px] font-semibold text-[#28785f]">26 ventas</p></div>
+                </li>
+              </ul>
+            </article>
+
+            <article class="rounded-2xl border border-[#e3e9e4] bg-white p-5 shadow-[0_2px_8px_rgba(27,48,38,0.025)] sm:p-6">
+              <div class="flex items-start justify-between gap-3">
+                <div><h3 id="alertas" class="scroll-mt-24 text-base font-bold">A tener en cuenta</h3><p class="mt-1 text-xs text-[#829089]">Señales de tu rendimiento</p></div>
+                <span class="grid size-8 place-items-center rounded-lg bg-[#fff4df] text-[#b77922]"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" class="size-[17px]"><path d="M12 3 2.8 19h18.4L12 3Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M12 9v4m0 3h.01" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></span>
+              </div>
+              <ul class="mt-4 space-y-3">
+                <li class="rounded-xl bg-[#f3f8e9] p-3.5">
+                  <p class="text-xs font-bold text-[#48651a]">Buen momento para repetir</p>
+                  <p class="mt-1 text-xs leading-relaxed text-[#68775d]">Tus historias de Instagram generaron un 22% más de ventas esta semana.</p>
+                </li>
+                <li class="rounded-xl bg-[#fff5eb] p-3.5">
+                  <p class="text-xs font-bold text-[#9a592e]">Engagement en descenso</p>
+                  <p class="mt-1 text-xs leading-relaxed text-[#7d6a5a]">YouTube bajó 0,8 pp. Revisa la frecuencia de publicación.</p>
+                </li>
+              </ul>
+              <div class="mt-5 border-t border-[#edf1ed] pt-4">
+                <h3 class="text-xs font-bold">Próximas publicaciones</h3>
+                <ul class="mt-3 space-y-3">
+                  <li class="flex items-center gap-3"><time datetime="2026-11-05" class="w-12 shrink-0 text-[10px] font-semibold text-[#718078]">5 nov.</time><span class="size-1.5 shrink-0 rounded-full bg-[#bd6682]"></span><p class="min-w-0 flex-1 truncate text-xs font-medium">Rutina de mañana · Instagram</p><span class="text-[10px] text-[#829089]">Historia</span></li>
+                  <li class="flex items-center gap-3"><time datetime="2026-11-06" class="w-12 shrink-0 text-[10px] font-semibold text-[#718078]">6 nov.</time><span class="size-1.5 shrink-0 rounded-full bg-[#7869b3]"></span><p class="min-w-0 flex-1 truncate text-xs font-medium">Prueba del producto B · TikTok</p><span class="text-[10px] text-[#829089]">Vídeo</span></li>
+                  <li class="flex items-center gap-3"><time datetime="2026-11-08" class="w-12 shrink-0 text-[10px] font-semibold text-[#718078]">8 nov.</time><span class="size-1.5 shrink-0 rounded-full bg-[#df8b60]"></span><p class="min-w-0 flex-1 truncate text-xs font-medium">Favoritos de la semana · YouTube</p><span class="text-[10px] text-[#829089]">Short</span></li>
+                </ul>
+              </div>
+            </article>
+          </section>
+
+          <footer class="mt-8 border-t border-[#e1e8e3] pt-4 text-center text-[11px] text-[#89958f] sm:text-left">
+            Datos de ejemplo · Actualizado hoy a las 09:41
+          </footer>
+        </main>
+      </div>
+    </div>
+
+    <nav aria-label="Navegación móvil" class="fixed inset-x-0 bottom-0 z-30 border-t border-[#e1e8e3] bg-white/95 px-2 pb-[max(8px,env(safe-area-inset-bottom))] pt-2 backdrop-blur-md lg:hidden">
+      <ul class="mx-auto flex max-w-lg items-center justify-around">
+        <li><a href="#resumen" class="flex min-w-[62px] flex-col items-center gap-1 rounded-xl px-2 py-1.5 text-[#829089] transition hover:text-[#28785f]"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" class="size-5"><rect x="3.5" y="3.5" width="7" height="7" rx="1.5" stroke="currentColor" stroke-width="1.8"/><rect x="13.5" y="3.5" width="7" height="7" rx="1.5" stroke="currentColor" stroke-width="1.8"/><rect x="3.5" y="13.5" width="7" height="7" rx="1.5" stroke="currentColor" stroke-width="1.8"/><rect x="13.5" y="13.5" width="7" height="7" rx="1.5" stroke="currentColor" stroke-width="1.8"/></svg><span class="text-[10px] font-medium">Resumen</span></a></li>
+        <li><a href="#plataformas" class="flex min-w-[62px] flex-col items-center gap-1 rounded-xl px-2 py-1.5 text-[#829089] transition hover:text-[#28785f]"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" class="size-5"><path d="M4 19V5m0 14h16M8 15l3-4 3 2 5-7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="text-[10px] font-medium">Redes</span></a></li>
+        <li><a href="#productos" class="flex min-w-[62px] flex-col items-center gap-1 rounded-xl px-2 py-1.5 text-[#829089] transition hover:text-[#28785f]"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" class="size-5"><path d="m4 7 8-4 8 4-8 4-8-4Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="m4 12 8 4 8-4M4 17l8 4 8-4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="text-[10px] font-medium">Productos</span></a></li>
+        <li><a href="#actividad" class="flex min-w-[62px] flex-col items-center gap-1 rounded-xl px-2 py-1.5 text-[#829089] transition hover:text-[#28785f]"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" class="size-5"><path d="M5 4.5h14v15H5z" stroke="currentColor" stroke-width="1.8"/><path d="M8 9h8M8 12.5h8M8 16h5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg><span class="text-[10px] font-medium">Actividad</span></a></li>
+      </ul>
+    </nav>
+  </body>
+</html>
