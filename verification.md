@@ -21,12 +21,17 @@
 
 - La pagina respondio correctamente desde el servidor local.
 - El HTML se pudo analizar sin errores de parseo.
-- Los enlaces internos tienen destinos existentes y los identificadores no estan duplicados.
-- Las cifras de ejemplo del resumen se contrastaron con los valores por plataforma y producto.
+- Los enlaces internos tienen destinos existentes y los identificadores no estan duplicados; se retiraron enlaces que llevaban a una seccion distinta de la indicada.
+- La fecha del dashboard corresponde al miercoles 4 de noviembre de 2026.
+- Las ventas por plataforma suman 175; sus comisiones y las comisiones por producto suman EUR 2.055.
+- La serie semanal del grafico suma EUR 2.055: 290, 330, 405, 470 y 560.
+- Las barras por plataforma muestran participacion en comisiones (53%, 31% y 15%); la conversion se presenta por separado.
+- Las visitas a enlaces por plataforma suman 3.646.
+- No se realizo una captura visual automatizada en varios tamanos de pantalla; falta una comprobacion manual en movil, tablet y escritorio.
 
 ## Limitaciones
 
 - Las cifras son datos estaticos de ejemplo; no hay backend ni conexion a redes sociales.
-- El filtro cambia la presentacion con selectores CSS de Tailwind; no consulta datos externos.
-- La navegacion no resalta automaticamente la seccion visible durante el desplazamiento manual, de acuerdo con la decision de mantener la restriccion de no usar JavaScript.
+- El filtro cambia las metricas del resumen mediante selectores CSS de Tailwind; no filtra las demas vistas ni consulta datos externos.
+- El desplegable de notificaciones no se cierra al seguir un enlace, y la navegacion no indica la seccion activa ni detecta el desplazamiento manual; ambas interacciones requeririan JavaScript.
 - Tailwind CSS v4 se carga desde CDN, por lo que la pagina requiere conexion a internet para aplicar los estilos.
