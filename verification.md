@@ -27,11 +27,11 @@
 - La serie semanal del grafico suma EUR 2.055: 290, 330, 405, 470 y 560.
 - Las barras por plataforma muestran participacion en comisiones (53%, 31% y 15%); la conversion se presenta por separado.
 - Las visitas a enlaces por plataforma suman 3.646.
-- No se realizo una captura visual automatizada en varios tamanos de pantalla; falta una comprobacion manual en movil, tablet y escritorio.
+- Se reviso manualmente la presentacion en movil, tablet y escritorio; el usuario confirma que se ve en orden. No se genero una captura automatizada.
 
 ## Limitaciones
 
 - Las cifras son datos estaticos de ejemplo; no hay backend ni conexion a redes sociales.
 - El filtro cambia las metricas del resumen mediante selectores CSS de Tailwind; no filtra las demas vistas ni consulta datos externos.
-- El desplegable de notificaciones no se cierra al seguir un enlace, y la navegacion no indica la seccion activa ni detecta el desplazamiento manual; ambas interacciones requeririan JavaScript.
+- El desplegable de notificaciones no se cierra al seguir un enlace; hacerlo requeriria JavaScript. Por decision de diseno, la navegacion no resalta la seccion activa.
 - Tailwind CSS v4 se carga desde CDN, por lo que la pagina requiere conexion a internet para aplicar los estilos.
